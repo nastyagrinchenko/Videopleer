@@ -1,0 +1,36 @@
+#video {
+    width: 100vw;
+}
+
+.btn-group {
+    margin-top: 20px;
+}
+#mute {
+    margin-right: 10px;
+}
+#fs, #mute{
+        float: right;
+        margin-top: 20px;
+}
+#progress {
+    margin-top: 20px;
+}
+#volume {
+    width: 200px !important;
+    position: relative;
+    float: right;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+#hover-block {
+    position: relative;
+    height: 150px;
+    margin-top: -150px;
+}
+#control {
+    display: block;
+    position: relative;
+    margin-top: -180px;
+}
+
+

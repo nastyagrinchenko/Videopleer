@@ -1,0 +1,28 @@
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" href="../public/css/style.css">
+        <link rel="stylesheet" href="../public/css/bootstrap/bootstrap.min.css">
+        <title>Document</title>
+    </head>
+    <body>
+        <video src="#" id="video"></video>
+        <div class="container-fluid">
+            <div id="hover-block"></div>
+            <div id="control">
+                <input type="range" class="form-control" id="progress">
+                <div class="btn-group">
+                    <button type="button" class="btn btn-secondary" id="play">Play</button>
+                    <button type="button" class="btn btn-secondary" id="pause">Pause</button>
+                </div>
+                <button type="button" class="btn btn-secondary" id="fs">FS</button>
+                <button type="button" class="btn btn-secondary" id="mute">Mute</button>
+                <input type="range" class="form-control" id="volume">
+            </div>
+        </div>
+
+        <script src="./video-renderer.js"></script>
+    </body>
+    </html>
